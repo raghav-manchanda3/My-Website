@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('/images/bg3.jpg');
+    background-position: 0 1000px;
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+   background-color: rgba(0, 0, 0, 0.6);
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+a{
+    color: #333333;
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom:  20px;
+    
+}
+p{
+    margin: 10px 0;
+}
+#navbar
+{
+    background: #333333;
+    color: white;
+    overflow: auto;
+}
+#navbar a{
+    color: white;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+
+}
+#navbar li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px ;
+    text-align: center;
+}
+#navbar ul li a:hover,
+    #navbar ul li a.current {
+        background: #444;
+        color: #f7c08a;
+    }
+  img
+    {
+        border-radius: 200%;
+        position: absolute;
+        margin-top: 10px;
+         border:black;
+
+        
+        left: 42%;
+        width: 230px;
+
+    }
+   
+    /* #showcase
+
+    {
+        background: url('/images/pexels-damir-mijailovic-3695238.jpg') no-repeat;
+        width: 1300px;
+
+    } */
+    #about
+    {
+        
+        border: #333333;
+        text-align: center;
+        
+        }
+        #about h2{
+            text-decoration: underline;
+            font-size: 250%;
+            color: wheat;
+        }
+        #about p{
+            font-size: 150%;
+            color:whitesmoke;
+            font-weight: bolder;
+            /* hobbies */
+            
+        }
+        #HOBBIES
+        {
+            text-align: center;
+
+        }
+        #HOBBIES {
+
+        font-size: 300%;
+        
+        line-height: 70px;
+        
+        }
+        #HOBBIES h1
+        {
+            text-decoration: underline whitesmoke;
+            color: wheat;
+        }
+        #HOBBIES li
+        {
+            color: whitesmoke;
+        }
+        /* skills */
+        .checked{
+            color: gold;
+        }
+        #skills
+        {
+            text-align: center;
+            font-size: 300%;
+            line-height: 70px;
+        }
+        #skills h1{
+            text-decoration: underline whitesmoke;
+            color: wheat;
+        }
+        #skills li{
+            color:whitesmoke;
+        }
+        #main-footer {
+            text-align: center;
+            background: #444;
+            color: #fff;
+            padding: 17px;
+            margin-top: 20px;
+            
+          }
+
